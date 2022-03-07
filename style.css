@@ -1,6 +1,39 @@
 body{
     font-family: 'Fira Sans', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
+}
+.span-color{
+    color: rgb(226, 99, 26);
+}
+section{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.half-part{
+    width: 50%;
+    padding-left: 10px;
+}
+.half-part img{
+width: 80%;
+}
+.linkup-button{
+    background-image:linear-gradient(orange,red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.mid-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
